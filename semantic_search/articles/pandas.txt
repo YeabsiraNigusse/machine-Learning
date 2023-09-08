@@ -3,12 +3,7 @@ What is it: Pandas is a package for simultaneously working with different types 
 
 Background: Wes McKinney released Pandas in 2008. It builds on NumPy (and, in fact, you must have NumPy installed to use Pandas) and extends that package to work with heterogeneous data. 
 
-Features: The core feature of Pandas is its variety of data structures, which let users perform an assortment of analysis operations. 
-
-Pandas has a variety of modules for data manipulation, including reshape, join, merge, and pivot. 
-Pandas has data visualization capabilities.
-Users can perform mathematical operations including calculus and statistics without calling on outside libraries. 
-It has modules that help you work around missing data.
+Features: The core feature of Pandas is its variety of data structures, which let users perform an assortment of analysis operations.Pandas has a variety of modules for data manipulation, including reshape, join, merge, and pivot.Pandas has data visualization capabilities.Users can perform mathematical operations including calculus and statistics without calling on outside libraries. It has modules that help you work around missing data.
 
 Best for: Data analysis. 
 

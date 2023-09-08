@@ -1,17 +1,10 @@
-Scikit-learn: If you need to do machine learning
+What is it: NumPy is a Python package for working with arrays, or large collections of homogenous data. You can think of an array like a spreadsheet, where numbers are stored in columns and rows.
 
-What is it: Scikit-learn is a Python library for implementing machine learning algorithms. 
+Background: Python wasn’t originally intended for numerical computation when it was launched in 1991. Still, its ease of use caught the scientific community’s attention early on. Over the years, the open source community developed a succession of packages for numerical computing. In 2005, developer Travis Oliphant combined over a decade’s worth of open source developments into a single library for numerical computation, which he called NumPy. 
 
-Background: A developer named David Cournapeau originally released scikit-learn as a student in 2007. The open source community quickly adopted it and has updated it numerous times over the years. 
+Features: The core feature of NumPy is support for arrays, which allows you to quickly process and manipulate large collections of data.Arrays in NumPy can be n-dimensional. This means the data can be a single column of numbers, or many columns and rows of numbers.NumPy has modules for performing some linear algebra functions.It also has modules for graphing and plotting numerical arrays.Data in NumPy arrays is homogenous, which means it must all be defined as the same type (numbers, strings, Boolean values, etc.). This means data gets processed efficiently.
+ 
+Best for: Manipulating and processing data for more advanced data science or machine learning operations. If you are crunching numbers, you need NumPy. 
 
-Features: The packages in Scikit-learn focus on modeling data. 
-
-Scikit-learn includes every core machine learning algorithm, among them vector machines, random forests, gradient boosting, k-means clustering, and DBSCAN. 
-It was designed to work seamlessly with NumPy and SciPy (both described below) for data cleaning, preparation, and calculation. 
-It has modules for loading data as well as splitting it into training and test sets.
-It supports feature extraction for text and image data.
-
-Best for: Scikit-learn is a must-have for anybody working in machine learning. It is considered one of the best libraries available if you need to implement algorithms for classification, regression, clustering, model selection, and more. 
-
-Downsides: Scikit-learn was built before deep learning took off. While it works great for core machine learning and data science jobs, if you are building neural nets you’ll need either TensorFlow or Pytorch (below). 
-Best place to learn: Machine Learning in Python with Scikit-Learn from Data School. (Note: Scikit-learn is one of the easiest Python libraries to learn. Once you are proficient in Python itself, Scikit-learn is a snap.)
+Downsides: Because NumPy arrays are homogeneous, they are a bad fit for mixed data. You are better off using Python lists. Also, NumPy’s performance tends to drop off when working with more than 500,000 columns.
+Best place to learn: Linear Regression with NumPy and Python from Coursera.

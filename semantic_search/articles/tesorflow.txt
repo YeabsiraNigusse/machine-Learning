@@ -1,4 +1,4 @@
-If you need to do machine learning: TensorFlow vs. PyTorch
+
 
 TensorFlow and PyTorch perform the same essential tasks related to deep learning: They make it easy to acquire data, train models, and generate predictions. From face recognition to large language models, many neural networks are coded using either TensorFlow or PyTorch. The libraries were once markedly different, both in the front and back-end. Over time, they converged around the same set of best practices.
 
@@ -33,46 +33,3 @@ Best for: Building production-ready deep learning models at scale.
 Downsides: Some users still complain that the front-end is fairly complicated. You may also come across critiques that TensorFlow executes slowly. This is mostly a legacy complaint from TensorFlow 1.0, when it executed operations in graph mode by default. TensorFlow 2.0 defaults to eager execution mode. 
 
 Best place to learn: TensorFlow Developer Professional Certificate from DeepLearning.ai. 
-
-
-Keras: 
-What is it: Keras is a beginner-friendly toolkit for working with neural networks. It is the front-end interface for TensorFlow. 
-
-Background: Google engineer Francois Choillet released Keras in 2015 to act as an API for a number of deep learning libraries. As of 2020, Keras is exclusive to TensorFlow.
-
-Features: Keras handles the high level tasks of building neural networks in TensorFlow, and as such contains fundamental modules like activation functions, layers, optimizers, and more. 
-
-Keras supports vanilla neural networks, convolutional neural networks, and recurrent neural networks as well as utility layers including batch normalization, dropout, and pooling. 
-It is designed to simplify coding deep neural networks. 
-Best for: Developing deep learning networks.
-
-Downsides: It’s only available for TensorFlow users. If you use TensorFlow, you’re using Keras. 
-
-Best place to learn: Introduction to Deep Learning and Neural Networks with Keras from IBM.
-
-
-PyTorch
-
-What is it: PyTorch is Facebook AI Research Lab’s answer to TensorFlow. It is an open source, general-purpose library for machine learning and data science, specifically deep learning.
-
-Background: Facebook released PyTorch in 2016 — a year after TensorFlow — and it quickly became popular with academics and other researchers who were interested in rapid prototyping. This was due to its streamlined front end and the fact that its default mode executes operations immediately (as opposed to adding them to a graph for later processing, as did TensorFlow). 
-
-Features: PyTorch has many features that are analogous those in TensorFlow. Indeed, in the years since they launched, each library has been updated to include the features that users like best about the other. 
-
-PyTorch has its own libraries for pre-trained models. The PyTorch Hub is aimed at academic users who want to experiment with the model design, and the Ecosystem Tools contains pre-trained models. 
-PyTorch is memory-efficient and accommodates training multiple models in parallel. 
-It supports a variety of hardware types.
-Best for: Rapid prototyping of deep learning models. Pytorch code runs quickly and efficiently. 
-
-Downsides: Some users report that PyTorch struggles with larger projects, big datasets, and complex workflows. Developers who build AI products to be deployed at scale may prefer TensorFlow.
-
-Best place to learn:PyTorch tutorials from PyTorch.org.
-
-Conclusion
-
-The maturity of libraries for Python is one of the main reasons why it is so popular among the AI community. They make it easy to extend Python to tasks well beyond its original design. Once you have a firm grasp of the Python language and the libraries that pertain to your job, you’ll be able to build, train, and iterate on machine learning models for a wide range of applications.
-
-Even with all its libraries, however, Python doesn’t excel at everything. For instance, if you are working on AI infrastructure you might need to learn C++; If you work in finance, you will probably need to learn R. To learn more about other AI programming languages and their uses, read our guide. 
-
-No matter what your AI goals are, the best thing to do is always keep learning!
-
