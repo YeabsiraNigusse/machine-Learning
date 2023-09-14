@@ -1,0 +1,35 @@
+
+
+TensorFlow and PyTorch perform the same essential tasks related to deep learning: They make it easy to acquire data, train models, and generate predictions. From face recognition to large language models, many neural networks are coded using either TensorFlow or PyTorch. The libraries were once markedly different, both in the front and back-end. Over time, they converged around the same set of best practices.
+
+Nonetheless, debate is ongoing within the AI community about which is best. TensorFlow, released in 2015, was the first on the scene. It dominates in commercial AI and product development, but many users complain about its complexity.
+
+PyTorch, released in 2016, is widely considered to be both easier to learn and faster to implement. It is a favorite among academics and is steadily gaining popularity in industry. However, it is known to struggle at scaling. 
+
+Which to choose? 
+
+TensorFlow is still the dominant deep learning library in industry. This is partly due to inertia, and partly due to the fact that TensorFlow is better than PyTorch at handling large projects and complex workflows. Its ability to handle AI products that are scaled for commercial deployment makes it a favorite for product development. 
+
+If you are just jumping into deep learning and want to focus on building and prototyping models quickly, PyTorch is probably the better bet. Be aware that you may have to learn TensorFlow one day depending on your job requirements and company tech (especially if your dream job is at Google, home of TensorFlow). 
+
+Learn more about the pros and cons of both libraries below.
+
+
+TensorFlow
+
+What is it? TensorFlow is an end-to-end open source library for developing, training, and deploying deep learning models. 
+
+Background: TensorFlow was originally released in 2015 by Google Brain. Originally, its front end wasn’t user friendly, and it had redundant APIs that made building and implementing models cumbersome. Many of these issues have been resolved over time with updates, as well as by integrating Keras (see below) as the default front end. 
+
+Features: TensorFlow has numerous packages for building deep learning models and scaling them for commercial deployment. 
+
+TensorFlow users can call upon the hundreds of pre-trained models in the Dev Hub and Model Garden. The Dev Hub contains plug-and-play models while the Model Garden is intended for more advanced users who are comfortable making customizations. 
+It is efficient in its use of memory, making it possible to train multiple neural networks in parallel. 
+TensorFlow applications can run on a wide variety of hardware systems, including CPUs, GPUs, TPUs, and more. 
+TensorFlow Lite is optimized for mobile and embedded machine learning models.
+Users can freely upload and share their machine learning experiments on Tensorboard.dev. 
+Best for: Building production-ready deep learning models at scale.
+
+Downsides: Some users still complain that the front-end is fairly complicated. You may also come across critiques that TensorFlow executes slowly. This is mostly a legacy complaint from TensorFlow 1.0, when it executed operations in graph mode by default. TensorFlow 2.0 defaults to eager execution mode. 
+
+Best place to learn: TensorFlow Developer Professional Certificate from DeepLearning.ai. 
